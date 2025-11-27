@@ -98,7 +98,6 @@ export default function Dashboard() {
 			}
 		},
 	];
-
 	const skills = [
 		"Unity Engine 3D/2D",
 		"Programación (C#)",
