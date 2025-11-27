@@ -101,8 +101,6 @@ export default function Dashboard() {
         "Programación (C#)",
         "Diseño de Niveles",
         "Game Design",
-        "Generalista 3D",
-        "Generalista 2D"
     ];
     const [showGifIdx, setShowGifIdx] = React.useState(null);
     const [moreInfo, setMoreInfo] = useState(false);
