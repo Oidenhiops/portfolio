@@ -98,6 +98,7 @@ export default function Dashboard() {
 			}
 		},
 	];
+
 	const skills = [
 		"Unity Engine 3D/2D",
 		"Programación (C#)",
@@ -106,6 +107,7 @@ export default function Dashboard() {
 		"Generalista 3D",
 		"Generalista 2D"
 	]
+
 	const [showGifIdx, setShowGifIdx] = React.useState<number | null>(null);
 	const [moreInfo, setMoreInfo] = useState(false);
 	const hoverTimeout = React.useRef<NodeJS.Timeout | null>(null);
