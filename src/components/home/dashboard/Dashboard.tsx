@@ -110,6 +110,7 @@ export default function Dashboard() {
 	const [moreInfo, setMoreInfo] = useState(false);
 	const hoverTimeout = React.useRef<NodeJS.Timeout | null>(null);
 	const [proyectSelected, setProyectSelected] = useState<DashboardProjectModel | null>(null);
+
 	const handleMouseEnter = (idx: number) => {
 		hoverTimeout.current = setTimeout(() => setShowGifIdx(idx), 600);
 	};
