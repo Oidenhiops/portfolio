@@ -25,13 +25,13 @@ export default function Dashboard() {
 			alt: "Patotective",
 			categories: ["Misterio", "Acción"],
 			title: "Patotective Cuak",
-			description: "Eres un pequeño detective intentando resolver el caso sobre la desaparición de tu hija, enfrenta diversos desafíos para rescatarla.",
+			description: "dashboard_project_patotective_description",
 			technologies: ["Unity 3D", "C#"],
 			video: JumpTillTheEndVid,
 			moreInfo: {
-				details: "Patotective Cuak es un juego corto donde un pato detective descubre que su hija fue secuestrada. Tendrás que interrogar a diferentes personajes en un parque para averiguar si saben algo sobre su paradero. Es un juego divertido de peleas de patos en tiempo real, no muy complejo, pero los ragdolls hacen que las peleas sean entretenidas y la historia da un giro inesperado al final.",
-				challenges: "El mayor reto fue lograr que las físicas ragdoll fueran divertidas y crearan situaciones inesperadas en las peleas, además de equilibrar la simpleza del combate con la narrativa. También fue un desafío mantener la experiencia fluida y sin bugs, dado el comportamiento impredecible de los ragdolls.",
-				learnings: "Aprendí a implementar físicas ragdoll en Unity y a diseñar mecánicas de combate simples pero entretenidas. También mejoré en la integración de narrativa con jugabilidad y en la optimización de juegos pequeños para que sean pulidos y divertidos.",
+				details: "dashboard_project_patotective_details",
+				challenges: "dashboard_project_patotective_challenges",
+				learnings: "dashboard_project_patotective_learnings",
 				demo: "#",
 			}
 		},
@@ -41,13 +41,13 @@ export default function Dashboard() {
 			alt: "Jump Till The End",
 			categories: ["Aventura"],
 			title: "Jump Till The End",
-			description: "Tu nave fue impactada por un meteorito, ahora deberás recuperar los fragmentos de tu nave que se esparcieron por un extraño planeta.",
+			description: "dashboard_project_jumptilltheend_description",
 			technologies: ["Unity 2D", "C#"],
 			video: JumpTillTheEndVid,
 			moreInfo: {
-				details: "Jump Till The End es un juego mobile donde controlas a un pequeño alienígena similar a un slime que, tras chocar su nave con un meteorito, debe recuperar las piezas perdidas en un planeta inhóspito. El objetivo es superar diferentes niveles saltando, esquivando obstáculos y enemigos para recuperar las partes de la nave y desentrañar la historia oculta del planeta. Además, el juego cuenta con soporte multilenguaje para llegar a una audiencia global.",
-				challenges: "El mayor reto fue diseñar controles de salto precisos y satisfactorios para dispositivos móviles, así como crear niveles que fueran desafiantes pero accesibles. También fue un desafío optimizar el rendimiento para distintos modelos de teléfonos y mantener una curva de dificultad equilibrada a lo largo del juego.",
-				learnings: "Este proyecto me permitió mejorar mis habilidades en el desarrollo de juegos para móviles, especialmente en la optimización de recursos y el diseño de controles táctiles. Aprendí sobre la importancia del feedback visual y sonoro para la experiencia del usuario y sobre cómo estructurar niveles para mantener el interés y la progresión.",
+				details: "dashboard_project_jumptilltheend_details",
+				challenges: "dashboard_project_jumptilltheend_challenges",
+				learnings: "dashboard_project_jumptilltheend_learnings",
 				demo: "#",
 			}
 		},
@@ -57,13 +57,13 @@ export default function Dashboard() {
 			alt: "Skyland Survivor",
 			categories: ["Aventura", "Acción"],
 			title: "Skyland Survivor",
-			description: "Eres el último mago en pie, con tu ingenio y tu isla voladora, deberás sobrevivir ante hordas de enemigos para restablecer tu mundo.",
+			description: "dashboard_project_skylandsurvivor_description",
 			technologies: ["Unity 2D", "C#"],
 			video: SkylandSurvivorVid,
 			moreInfo: {
-				details: "Skyland Survivor es un juego que fusiona la acción tipo Vampire Survivor con mecánicas de construcción (builder) y exploración de mazmorras al estilo Zelda. El jugador controla a un mago que debe defender su isla flotante de oleadas de enemigos, pero también puede explorar mazmorras generadas proceduralmente para conseguir planos de nuevas armas y mejoras para su base principal. El juego destaca por su sistema de progresión, la integración de varios géneros y el soporte multi lenguaje, permitiendo a jugadores de diferentes regiones disfrutar la experiencia.",
-				challenges: "El mayor reto fue equilibrar la jugabilidad entre la defensa de la base y la exploración de mazmorras, asegurando que ambas mecánicas fueran igual de atractivas. Implementar mapas procedurales y un sistema de recompensas significativo para la exploración requirió mucha iteración. Además, optimizar el rendimiento para que los mapas grandes y la IA de los enemigos funcionaran bien en todo tipo de dispositivos fue un desafío técnico importante.",
-				learnings: "Este proyecto me permitió profundizar en la generación procedural de mapas, el diseño de sistemas de progresión y la integración de múltiples géneros en un solo juego. Mejoré mis habilidades en optimización, balanceo de dificultad y localización (multi lenguaje), así como en la creación de experiencias de usuario más ricas y rejugables.",
+				details: "dashboard_project_skylandsurvivor_details",
+				challenges: "dashboard_project_skylandsurvivor_challenges",
+				learnings: "dashboard_project_skylandsurvivor_learnings",
 				demo: "#",
 			}
 		},
@@ -73,13 +73,13 @@ export default function Dashboard() {
 			alt: "Echoes Of The Abyss",
 			categories: ["RPG", "Acción", "Aventura"],
 			title: "Echoes Of The Abyss",
-			description: "Una aventura rogelike donde tendrás que avanzar por un lugar inhóspito luego de quedar atrapado en un antiguo laberinto.",
+			description: "dashboard_project_echoesoftheabyss_description",
 			technologies: ["Unity 3D", "C#"],
 			video: EchoesOfTheAbyssVid,
 			moreInfo: {
-				details: "Echoes of the Abyss es un tactical RPG en 2.5D con elementos rogelike, donde tras quedar atrapado en un antiguo laberinto deberás explorar sus profundidades, reunir items, mejorar tus habilidades y reclutar compañeros que también han quedado atrapados. Cada expedición es única gracias a la generación procedural de escenarios y eventos, y el jugador debe tomar decisiones estratégicas para sobrevivir y descubrir los secretos del abismo. El juego está disponible para PC y dispositivos móviles, y en ambas plataformas cuenta con adaptación para jugar con mando.",
-				challenges: "El principal reto fue diseñar un sistema de combate táctico que resultara desafiante y satisfactorio, así como equilibrar la dificultad de la exploración rogelike con la progresión del jugador. Implementar la generación procedural de mapas y eventos, y crear una IA convincente para los aliados y enemigos, requirió mucha iteración y pruebas. Además, lograr una ambientación inmersiva en 2.5D fue un desafío artístico y técnico.",
-				learnings: "Este proyecto me permitió profundizar en el diseño de sistemas de combate táctico, generación procedural y narrativa emergente. Aprendí sobre balanceo de dificultad, diseño de IA para compañeros y enemigos, y cómo crear una experiencia de exploración rejugable. También mejoré mis habilidades en Unity, C# y en la integración de arte 2D y 3D para lograr una estética coherente.",
+				details: "dashboard_project_echoesoftheabyss_details",
+				challenges: "dashboard_project_echoesoftheabyss_challenges",
+				learnings: "dashboard_project_echoesoftheabyss_learnings",
 				systems: [
 					{
 						name: "Generador Automático de Animaciones",
@@ -100,10 +100,12 @@ export default function Dashboard() {
 	];
 
 	const skills = [
-		"Unity Engine 3D/2D",
-		"Programación (C#)",
-		"Diseño de Niveles",
-		"Game Design",
+		"dashboard_skill_1",
+		"dashboard_skill_2",
+		"dashboard_skill_3",
+		"dashboard_skill_4",
+		"dashboard_skill_5",
+		"dashboard_skill_6",
 	]
 
 	const [showGifIdx, setShowGifIdx] = React.useState<number | null>(null);
@@ -124,16 +126,33 @@ export default function Dashboard() {
 			<Box>
 				<Box component="section" id="inicio" className="hero">
 					<Box className="hero-content">
-						<Typography variant="h2" className="hero-title">{t("dashboard_hero_title")}</Typography>
+						<Typography sx={{
+							fontSize: {
+								sm: "4rem",
+								xs: "1.8rem"
+							}
+						}} className="hero-title">{t("dashboard_hero_title")}</Typography>
 					</Box>
 				</Box>
 				<Box component="section" id="sobre-mi" className="sobre-mi">
 					<Container className="container">
-						<Typography variant="h2" className="section-title">Sobre Mí</Typography>
+						<Typography sx={{
+							display: "flex",
+							alignItems: "center",
+							justifyContent: "center",
+							paddingBottom: 4,
+							fontSize: {
+								sm: "3rem",
+								xs: "1rem"
+							}
+						}} className="section-title">{t("dashboard_about_me_title")}</Typography>
 						<Box className="sobre-mi-content" sx={{ display: "flex", flexDirection: "column" }}>
 							<Box sx={{
 								display: "flex",
-								flexDirection: "row",
+								flexDirection: {
+									sm: "row",
+									xs: "column"
+								},
 								gap: 4,
 							}}>
 								<Box className="sobre-mi-texto">
@@ -158,10 +177,10 @@ export default function Dashboard() {
 								/>
 							</Box>
 							<Box className="sobre-mi-habilidades" sx={{ display: "flex", flexDirection: "column", width: "100%" }}>
-								<Typography variant="h3" sx={{ display: "flex", justifyContent: "center" }}>Habilidades</Typography>
+								<Typography variant="h3" sx={{ display: "flex", justifyContent: "center" }}>{t("dashboard_skills_title")}</Typography>
 								<ul className="habilidades-list">
-									{skills.map((skill, index) => (
-										<li key={index}>{skill}</li>
+									{skills.map((skillId, index) => (
+										<li key={index}>{t(skillId)}</li>
 									))}
 								</ul>
 							</Box>
@@ -170,7 +189,16 @@ export default function Dashboard() {
 				</Box>
 				<Box component="section" id="proyectos" className="proyectos">
 					<Container className="container">
-						<Typography variant="h2" className="section-title" sx={{ display: "flex", alignItems: "center", justifyContent: "center", paddingBottom: 4 }}>Mis Proyectos</Typography>
+						<Typography className="section-title" sx={{
+							display: "flex",
+							alignItems: "center",
+							justifyContent: "center",
+							paddingBottom: 4,
+							fontSize: {
+								sm: "3rem",
+								xs: "1rem"
+							}
+						}}>{t("dashboard_projects_title")}</Typography>
 						<Box sx={{
 							display: "flex",
 							flexWrap: "wrap",
@@ -220,7 +248,7 @@ export default function Dashboard() {
 										gap: 2
 									}}>
 										<Typography variant="h4" className="proyecto-titulo">{proyecto.title}</Typography>
-										<Typography >{proyecto.description}</Typography>
+										<Typography >{t(proyecto.description)}</Typography>
 										<Box className="proyecto-tecnologias">
 											{proyecto.technologies.map((tec, i) => (
 												<span className="tecnologia-tag" key={i}>{tec}</span>
@@ -230,7 +258,7 @@ export default function Dashboard() {
 											<Button className="btn btn-outline" onClick={() => {
 												setProyectSelected(proyecto);
 												setMoreInfo(true);
-											}}>Más información</Button>
+											}}>{t("dashboard_more_info_label")}</Button>
 										</Box>
 									</Box>
 								</Box>
@@ -240,12 +268,29 @@ export default function Dashboard() {
 				</Box>
 				<Box component="section" id="contacto" className="contacto">
 					<Container className="container">
-						<Typography variant="h2" className="section-title">Contacto</Typography>
-						<Typography variant="subtitle1" className="section-subtitle">¿Tienes alguna pregunta o quieres colaborar?</Typography>
-						<Box className="form-group" sx={{ display: "flex", flexDirection: "row", gap: 4, justifyContent: "center", paddingTop: 4 }}>
+						<Typography sx={{
+							fontSize: {
+								sm: "3rem",
+								xs: "1rem"
+							}
+						}} className="section-title">{t("dashboard_contact_title")}</Typography>
+						<Typography variant="subtitle1" className="section-subtitle">{t("dashboard_contact_subtitle")}</Typography>
+						<Box className="form-group" sx={{
+							display: "flex",
+							flexDirection: {
+								sm: "row",
+								xs: "column"
+							},
+							gap: 4,
+							justifyContent: "center",
+							paddingTop: 4
+						}}>
 							<Box sx={{
 								display: "flex",
-								flexDirection: "row",
+								flexDirection: {
+									sm: "row",
+									xs: "column"
+								},
 								alignItems: "center",
 							}}>
 								<IconButton >
@@ -255,7 +300,10 @@ export default function Dashboard() {
 							</Box>
 							<Box sx={{
 								display: "flex",
-								flexDirection: "row",
+								flexDirection: {
+									sm: "row",
+									xs: "column"
+								},
 								alignItems: "center",
 							}}>
 								<IconButton >

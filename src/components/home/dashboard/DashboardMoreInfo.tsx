@@ -1,6 +1,7 @@
 import type { DashboardProjectModel } from '@components/home/dashboard/model';
 import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, Typography } from '@mui/material';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface ProjectMoreInfoProps {
     open: boolean;
@@ -9,6 +10,7 @@ interface ProjectMoreInfoProps {
 }
 
 const DashboardMoreInfo: React.FC<ProjectMoreInfoProps> = ({ open, onClose, project }) => {
+    const { t } = useTranslation();
     return (
         <Dialog open={open} onClose={onClose} maxWidth="md" fullWidth>
             <DialogTitle>{project.title}</DialogTitle>
@@ -17,18 +19,18 @@ const DashboardMoreInfo: React.FC<ProjectMoreInfoProps> = ({ open, onClose, proj
                     <Box component="video" src={project.video} controls style={{ width: '100%', borderRadius: 12 }} />
                     <Box sx={{ mt: 2, display: 'flex', flexDirection: 'column', gap: 1 }}>
                         {project.moreInfo.details && (
-                            <Typography variant="subtitle2">Detalles
-                                <Typography variant="body2" color="text.secondary">{project.moreInfo.details}</Typography>
+                            <Typography variant="subtitle2">{t("dashboard_more_info_details_title")}
+                                <Typography variant="body2" color="text.secondary">{t(project.moreInfo.details)}</Typography>
                             </Typography>
                         )}
                         {project.moreInfo.challenges && (
-                            <Typography variant="subtitle2">Retos
-                                <Typography variant="body2" color="text.secondary">{project.moreInfo.challenges}</Typography>
+                            <Typography variant="subtitle2">{t("dashboard_more_info_challenges_title")}
+                                <Typography variant="body2" color="text.secondary">{t(project.moreInfo.challenges)}</Typography>
                             </Typography>
                         )}
                         {project.moreInfo.learnings && (
-                            <Typography variant="subtitle2">Aprendizajes
-                                <Typography variant="body2" color="text.secondary">{project.moreInfo.learnings}</Typography>
+                            <Typography variant="subtitle2">{t("dashboard_more_info_learnings_title")}
+                                <Typography variant="body2" color="text.secondary">{t(project.moreInfo.learnings)}</Typography>
                             </Typography>
                         )}
                         {project.moreInfo.demo && (
@@ -51,7 +53,7 @@ const DashboardMoreInfo: React.FC<ProjectMoreInfoProps> = ({ open, onClose, proj
                         </Box>
                     }
                     <Box sx={{ mt: 2 }}>
-                        <Typography variant="subtitle2">Tecnologías:</Typography>
+                        <Typography variant="subtitle2">{t("dashboard_more_info_tecnologies_title")}</Typography>
                         <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
                             {project.technologies.map((tec, i) => (
                                 <Box key={i} sx={{ px: 1, py: 0.5, bgcolor: 'primary.light', borderRadius: 1, color: 'primary.contrastText', fontSize: 14 }}>{tec}</Box>
@@ -59,7 +61,7 @@ const DashboardMoreInfo: React.FC<ProjectMoreInfoProps> = ({ open, onClose, proj
                         </Box>
                     </Box>
                     <Box sx={{ mt: 2 }}>
-                        <Typography variant="subtitle2">Categorías:</Typography>
+                        <Typography variant="subtitle2">{t("dashboard_more_info_categories_title")}</Typography>
                         <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
                             {project.categories.map((cat, i) => (
                                 <Box key={i} sx={{ px: 1, py: 0.5, bgcolor: 'secondary.light', borderRadius: 1, color: 'secondary.contrastText', fontSize: 14 }}>{cat}</Box>
@@ -69,7 +71,7 @@ const DashboardMoreInfo: React.FC<ProjectMoreInfoProps> = ({ open, onClose, proj
                 </Box>
             </DialogContent>
             <DialogActions>
-                <Button onClick={onClose} color="primary" variant="contained">Cerrar</Button>
+                <Button onClick={onClose} color="primary" variant="contained">{t("dashboard_more_info_close_button")}</Button>
             </DialogActions>
         </Dialog>
     );
