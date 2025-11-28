@@ -15,8 +15,8 @@ i18n
 		defaultNS: "translation",
 		debug: true,
 		detection: {
-			order: ["navigator", "htmlTag", "path", "subdomain"],
-			caches: [],
+			order: ["localStorage", "navigator", "htmlTag", "path", "subdomain"],
+			caches: ["localStorage"],
 		},
 		interpolation: {
 			escapeValue: false,
