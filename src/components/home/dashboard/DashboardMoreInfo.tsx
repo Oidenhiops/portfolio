@@ -18,21 +18,15 @@ const DashboardMoreInfo: React.FC<ProjectMoreInfoProps> = ({ open, onClose, proj
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                     <Box component="video" src={project.video} controls style={{ width: '100%', borderRadius: 12 }} />
                     <Box sx={{ mt: 2, display: 'flex', flexDirection: 'column', gap: 1 }}>
-                        {project.moreInfo.details && (
-                            <Typography variant="subtitle2">{t("dashboard_more_info_details_title")}
-                                <Typography variant="body2" color="text.secondary">{t(project.moreInfo.details)}</Typography>
-                            </Typography>
-                        )}
-                        {project.moreInfo.challenges && (
-                            <Typography variant="subtitle2">{t("dashboard_more_info_challenges_title")}
-                                <Typography variant="body2" color="text.secondary">{t(project.moreInfo.challenges)}</Typography>
-                            </Typography>
-                        )}
-                        {project.moreInfo.learnings && (
-                            <Typography variant="subtitle2">{t("dashboard_more_info_learnings_title")}
-                                <Typography variant="body2" color="text.secondary">{t(project.moreInfo.learnings)}</Typography>
-                            </Typography>
-                        )}
+                        <Typography variant="subtitle2">{t("dashboard_more_info_details_title")}
+                            <Typography variant="body2" color="text.secondary">{t(project.moreInfo.details)}</Typography>
+                        </Typography>
+                        <Typography variant="subtitle2">{t("dashboard_more_info_challenges_title")}
+                            <Typography variant="body2" color="text.secondary">{t(project.moreInfo.challenges)}</Typography>
+                        </Typography>
+                        <Typography variant="subtitle2">{t("dashboard_more_info_learnings_title")}
+                            <Typography variant="body2" color="text.secondary">{t(project.moreInfo.learnings)}</Typography>
+                        </Typography>
                         {project.moreInfo.demo && (
                             <Typography variant="subtitle2">
                                 <b>Demo:</b> <a href={project.moreInfo.demo} target="_blank" rel="noopener noreferrer">{project.moreInfo.demo}</a>

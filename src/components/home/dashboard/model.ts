@@ -12,7 +12,7 @@ export interface DashboardProjectModel {
         challenges: string;
         learnings: string;
         systems?: MoreInfoSystemModel[];
-        demo: string;
+        demo?: string;
     };
 }
 export interface MoreInfoSystemModel {

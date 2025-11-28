@@ -32,7 +32,6 @@ export default function Dashboard() {
 				details: "dashboard_project_patotective_details",
 				challenges: "dashboard_project_patotective_challenges",
 				learnings: "dashboard_project_patotective_learnings",
-				demo: "#",
 			}
 		},
 		{
@@ -48,7 +47,6 @@ export default function Dashboard() {
 				details: "dashboard_project_jumptilltheend_details",
 				challenges: "dashboard_project_jumptilltheend_challenges",
 				learnings: "dashboard_project_jumptilltheend_learnings",
-				demo: "#",
 			}
 		},
 		{
@@ -64,7 +62,6 @@ export default function Dashboard() {
 				details: "dashboard_project_skylandsurvivor_details",
 				challenges: "dashboard_project_skylandsurvivor_challenges",
 				learnings: "dashboard_project_skylandsurvivor_learnings",
-				demo: "#",
 			}
 		},
 		{
@@ -94,7 +91,6 @@ export default function Dashboard() {
 						description: "Implementé un sistema de capas que permite pintar y editar los mundos desde un editor personalizado, facilitando el control y la creación eficiente de mapas complejos y detallados."
 					}
 				],
-				demo: "#",
 			}
 		},
 	];
